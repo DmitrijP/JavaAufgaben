@@ -1,7 +1,7 @@
 ## Aufgaben Java Input / Output auf der Console
 
 ### Aufgabe 1 Konsole Output:
-Schreibe eine Methode die 10 Mal `„Hallo Welt“' auf die Konsole ausgibt.
+Schreibe eine Methode die 10 Mal `„Hallo Welt“` auf die Konsole ausgibt.
 Hilfestellung:
 - Output: https://www.w3schools.com/java/java_output.asp
 - Loop: https://www.w3schools.com/java/java_for_loop.asp
@@ -26,10 +26,10 @@ Schreibe eine Methode die zwei Zahlen über die Konsole einliest, addiert und da
 ### Aufgabe 6 Taschenrechner:
 Schreibe eine Methode die zwei Zahlen und ein Wort über die Konsole einliest.
 Wenn das Wort einem der folgenden Wörter entspricht soll die entsprechende Operation durchgeführt werden:
-`add`: Führt eine Addition aus.
-`subtract`: Führt eine Subtraktion aus.
-`multiply`: Führt eine Multiplikation aus.
-`devide`: Führt eine Division aus.
+- `add`: Führt eine Addition aus.
+- `subtract`: Führt eine Subtraktion aus.
+- `multiply`: Führt eine Multiplikation aus.
+- `devide`: Führt eine Division aus.
 Hilfestellung:
 - if/Else: https://www.w3schools.com/java/java_conditions.asp
 - String Comparison: https://www.javatpoint.com/string-comparison-in-java
