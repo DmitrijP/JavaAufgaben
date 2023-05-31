@@ -7,12 +7,12 @@ Schreibe ein neues Programm das folgendes auf der Console ausgibt:
 ### Aufgabe 2:
 Erweitere das Program so das es erkennt welcher Befehl eingegeben wurde.
 Wenn -help erkannt wurde dann soll Folgendes ausgegeben werden:
-`Sie haben um Hilfe gebeten. Folgende Befehle stehen ihnen zur Verfügung:
+```Sie haben um Hilfe gebeten. Folgende Befehle stehen ihnen zur Verfügung:
 -help: zeigt die Hilfe an
 -split: teilt einen eingegebenen Texte auf
 -concat: fügt zwei eingegebene Texte zusammen
 -quit: beendet das Programm
-`
+```
 Wenn `-split ` erkannt wurde dann soll `Sie haben -split eingegeben ` angezeigt werden.  
 Wenn  `-concat ` erkannt wurde dann soll  `Sie haben -concat eingegeben ` angezeigt werden.  
 Wenn  `-quit ` erkannt wurde dann soll  `Sie haben -quit eingegeben. Das Programm wird jetzt beendet. ` angezeigt werden und das Programm sollenden.  
