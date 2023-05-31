@@ -28,21 +28,21 @@ sdf
  
 ### Aufgabe 4: Auftrennen von Texten anhand eines Trennzeichens.
 Wenn der Benutzer folgendes eingibt:
--split meineDatei.txt
+`-split meineDatei.txt`
 Soll das Programm den eingegebenen Text an einem PUNKT aufsplitten und folgendes ausgeben:
-„Sie haben -split eingegeben
+```Sie haben -split eingegeben
 Der zu teilende Text, den sie eingegeben haben ist: meineDatei.txt
 Der geteilte Texts ist:
 meineDatei
 txt
-„
+```
  
 ### Aufgabe 5: Zusammensetzen von Text.
 Wenn der Benutzer folgendes eingibt:
--concat Dmit rij
+`-concat Dmit rij`
 Soll das Programm folgendes ausgeben:
-„Sie haben -concat eingegeben
+```Sie haben -concat eingegeben
 Der zu teilende Text, den sie eingegeben haben ist: Dmit rij
 Der zusammengesetzteText ist:
 Dmitrij
-„
+```
