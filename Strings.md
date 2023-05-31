@@ -7,20 +7,20 @@ Schreibe ein neues Programm das folgendes auf der Console ausgibt:
 ### Aufgabe 2:
 Erweitere das Program so das es erkennt welcher Befehl eingegeben wurde.
 Wenn -help erkannt wurde dann soll Folgendes ausgegeben werden:
-„Sie haben um Hilfe gebeten. Folgende Befehle stehen ihnen zur Verfügung:
+`Sie haben um Hilfe gebeten. Folgende Befehle stehen ihnen zur Verfügung:
 -help: zeigt die Hilfe an
 -split: teilt einen eingegebenen Texte auf
 -concat: fügt zwei eingegebene Texte zusammen
 -quit: beendet das Programm
-“
-Wenn -split erkannt wurde dann soll „Sie haben -split eingegeben““ angezeigt werden.
-Wenn -concat erkannt wurde dann soll „Sie haben -concat eingegeben““ angezeigt werden.
-Wenn -quit erkannt wurde dann soll „Sie haben -quit eingegeben. Das Programm wird jetzt beendet.““ angezeigt werden und das Programm sollenden.
+`
+Wenn -split erkannt wurde dann soll `Sie haben -split eingegeben ` angezeigt werden.
+Wenn -concat erkannt wurde dann soll  `Sie haben -concat eingegeben ` angezeigt werden.
+Wenn -quit erkannt wurde dann soll  `Sie haben -quit eingegeben. Das Programm wird jetzt beendet. ` angezeigt werden und das Programm sollenden.
  
 ### Aufgabe 3. Auftrennen von Texten am Leerzeichen.
 Erweitere die Aufgabe so das bei den Befehlen -split und -concat die Zeile anhand eines Leerzeichens aufgetrennt wird.
 Das heßt, wenn der Benutzer folgendes eingibt: -split hallo sdf dann soll das Programm die Ausgabe folgender maßen generieren:
-„Sie haben -split hallo sdf eingegeben“
+`Sie haben -split hallo sdf eingegeben`
 Die einzelnen Wörter sind:
 hallo
 sdf
