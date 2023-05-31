@@ -1,7 +1,7 @@
 ## Aufgaben Java Input / Output auf der Console
 
 ### Aufgabe 1 Konsole Output:
-Schreibe eine Methode die 10 Mal `„Hallo Welt“` auf die Konsole ausgibt.
+Schreibe eine Methode die 10 Mal `Hallo Welt` auf die Konsole ausgibt.
 Hilfestellung:
 - Output: https://www.w3schools.com/java/java_output.asp
 - Loop: https://www.w3schools.com/java/java_for_loop.asp
@@ -13,8 +13,8 @@ Hilfestellung:
 - Input: https://www.w3schools.com/java/java_user_input.asp
  
 ### Aufgabe 3 User-Input & For-Loop:
-Schreibe eine Methode, die mit dem Scanner eine Zahl einliest und `„Hallo Welt“` entsprechend der eingegebenen Zahl wiederholt auf der Konsole ausgibt.
-Beispiel: Bei einer Benutzereingabe von 5 würde `„Hallo Welt` 5-mal ausgegeben werden.
+Schreibe eine Methode, die mit dem Scanner eine Zahl einliest und `Hallo Welt` entsprechend der eingegebenen Zahl wiederholt auf der Konsole ausgibt.
+Beispiel: Bei einer Benutzereingabe von 5 würde `Hallo Welt` 5-mal ausgegeben werden.
  
 ### Aufgabe 4 Multiple User-Input & For-Loop:
 Schreibe eine Methode, die zuerst eine Zahl einliest und danach eine Zeichenkette.
@@ -30,6 +30,7 @@ Wenn das Wort einem der folgenden Wörter entspricht soll die entsprechende Oper
 - `subtract`: Führt eine Subtraktion aus.
 - `multiply`: Führt eine Multiplikation aus.
 - `devide`: Führt eine Division aus.
+  
 Hilfestellung:
 - if/Else: https://www.w3schools.com/java/java_conditions.asp
 - String Comparison: https://www.javatpoint.com/string-comparison-in-java
