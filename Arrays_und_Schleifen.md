@@ -1,17 +1,71 @@
-## Arrays und Schleifen
+# Arrays und Schleifen
 
-### Aufgabe 1.
-Initialisiere ein String Array und befülle es mit 10 zufälligen Namen.
-Gib danach alle 10 Namen auf der Console nacheinander aus. Verwende eine Schleife.
+Bitte macht die Folgenden Aufgaben bevor ihr an dem CSV-Reader weiter macht.  
+Hilfestellung für die Aufgaben.  
+Consolenausgabe: https://www.w3schools.com/java/java_output.asp  
+Arrays: https://www.w3schools.com/java/java_arrays.asp  
+Math und Random Functions: https://www.w3schools.com/java/java_math.asp  
+
+## Aufgabe 1:
+Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 13.
+image
+1a : Ändere das Programm so das es die Zahl 1 von der Zahl 2 subtrahiert.
+1b : Ändere das Programm so das zusätzlich zu dem Ergebnis auch die Rechnung auf der Konsole ausgibt
+                Zum Beispiel „Die Rechnung ist: 7 * 8“.
+                                            „Das Ergebnis ist: 56“ 
+
+
+## Aufgabe 2:
+Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 8.
+image
+Ändere das Programm so das es die Zahlen 2 bis 17 ausgibt.
+Ändere das Programm so das es die Zahlen 2 bis 17 rückwärts ausgibt mit der 17 angefangen.
+
+
+## Aufgabe 3:
+Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 12.
+image
+Ändere das Programm so das der ELSE-Block nur ausgeführt wird wenn i == 10 ist.
+
+## Aufgabe 4:
+Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 13.
+image
+
+## Aufgabe 5:
+Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 7.
+image
+Ändere das Programm so das es die Zahlen des Arrays rückwärts ausgibt .
+
+## Aufgabe 6:
+Lege ein Array mit dem Namen „numbers“ an und initialisiere es mit 10 Zahlen.
+Gib die Zahlen auf der Konsole aus.         
+Beispielausgabe:
+image
+
+## Aufgabe 7:
+Lass den Benutzer zwei Zahlen in die Konsole eingeben und generiere eine zufällige Zahl, die zwischen den Zahlen liegt.
+image
+
+## Aufgabe 8:
+Lege ein Array mit dem Namen „numbers“ an und initialisiere es mit 10 Zahlen zufälligen zwischen 1 und 100.
+Gib die Zahlen auf der Konsole aus.        
+Verwende Schleifen für das Befüllen des Arrays und das Printen des Arrays auf die Konsole
+image
+
+
+## Aufgabe 9:
+Lies dich in Multidimensionale Arrays ein.
+https://www.w3schools.com/java/java_arrays_multi.asp
+Was ist ein Multidimensionales Array?
+Wie deklarierst du so ein Array mit zwei Dimensionen?
+Wie reservierst du den Speicher für ein Array mit zwei Dimensionen? Dabei soll die erste Dimension die Länge von 7 und die zweite von 4 haben.
  
-### Aufgabe 2.
-Verwende den Code von Aufgabe 1 und ändere diesen, so dass der Name in umgekehrter Reihenfolge ausgegeben werden. Das heißt der zuletzt hinzugefügte Name soll zuerst ausgegeben werden und der zuerst hinzugefügte Name als letztes. Verwende eine Schleife.
- 
-### Aufgabe 3.
-Verwende den Code von Aufgabe 1 und ändere diesen, so dass jeder zweite Name ausgegeben wird.
- 
-### Aufgabe 4.
-Implementiere Aufgabe 1 bis 3 mit einem Int Array und Zahlen anstatt von Namen.
- 
-### Aufgabe 5.
-Implementiere Aufgabe 1 bis 3 mit einem Double Array und Zahlen anstatt von Namen.
+## Aufgabe 9:
+Schreibe ein Programm, das ein String - Array mit zwei Dimensionen verwendet. Das Array soll in beide Dimensionen die Länge 10 haben.
+Befülle das Array mit den entsprechenden Indexen des Arrays.   
+Beispiel Ausgabe:  
+image
+
+
+
+
