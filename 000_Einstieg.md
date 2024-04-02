@@ -272,6 +272,7 @@ public class Main {
       //Deklaration eines Arrays vom Datentyp Ganzzahl
       int[] unserZahllenArray;
       //Initialisierung des Arrays unserZahllenArray mit der Länge 10.
+      //Im Speicher sehen wir dann 10 leere Bereich mit der Größe eines INT [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
       unserZahllenArray = new int[10];
   }
 }
@@ -288,14 +289,25 @@ public class Main {
       //Programmeinstieg hier
       //Deklaration eines Arrays vom Datentyp Ganzzahl
       int[] unserZahllenArray;
+
       //Initialisierung des Arrays unserZahllenArray mit der Länge 10.
+      //Im Speicher sehen wir dann 10 leere Bereich mit der Größe eines
+      //INT-Array:  [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
       unserZahllenArray = new int[10];
+
+      // INT-Array:  [1][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
       //Das Array an der Position 0 erhällt den Wert 1
       unserZahllenArray[0] = 1;
-      //Das Array an der Position 2 erhällt den Wert 4
+
+      // INT-Array:  [1][ ][2][ ][ ][ ][ ][ ][ ][ ][ ]
+      //Das Array an der Position 2 erhällt den Wert 4. Wir zählen von 0 somit ist Position 2 das dritte Element
       unserZahllenArray[2] = 4;
+
+      // INT-Array:  [1][ ][2][7][ ][ ][ ][ ][ ][ ][ ]
       //Das Array an der Position 3 erhällt den Wert 7
       unserZahllenArray[3] = 7;
+
+      // INT-Array: [1][ ][2][7][ ][ ][ ][ ][ ][ ][56]
       //Das Array an der Position 9 erhällt den Wert 56
       unserZahllenArray[9] = 56;
 
@@ -335,7 +347,7 @@ public class Main {
       //Das Array an der Position 9 erhällt den Wert 56
       unserZahllenArray[9] = 56;
 
-      
+      //Wir gleifen auf Position 3 also den 4. Element des Arrays zu.
       System.out.println("Array an Position 3 ist gleich: " + unserZahllenArray[3]);
   }
 }
