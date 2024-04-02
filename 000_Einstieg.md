@@ -242,3 +242,182 @@ public class Main {
       System.out.println(zahl1);
   }
 }
+```
+
+## Arrays
+Oft müssen wir mit einer beliebige Anzahl an Variablen des gleichen Types arbeiten. Dies wird oft mit sogenannten 'Arrays' gemacht.
+
+### Deklaration eines Arrays
+Arrays werden durch ein '[]' nach dem Datentyp gekennzeichnet
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      //Deklaration eines Arrays vom Datentyp Ganzzahl
+      int[] unserZahllenArray;
+  }
+}
+```
+
+### Initialisierung eines Arrays
+Ein Array muss immer mit einer Länge initialisiert werden. Diese Länge zeichnet die Anzahl an werten die in das Array abgelegt werden können.
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      //Deklaration eines Arrays vom Datentyp Ganzzahl
+      int[] unserZahllenArray;
+      //Initialisierung des Arrays unserZahllenArray mit der Länge 10.
+      unserZahllenArray = new int[10];
+  }
+}
+```
+
+### Belegung eines Arrays
+Dies reserviert 10 Speicherbereiche für den Datentyp Ganzzahl in dem Arbeitsspeicher. Wir können diese mit einem 'Index' ansprechen.
+Dabei beginnt der Index immer bei '0' und geht bis zu der initialisierten Länge - 1! Bei einer Reservierung von 10 Speicherbereichen ist der erste bereich 0 der letzte 9.
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      //Deklaration eines Arrays vom Datentyp Ganzzahl
+      int[] unserZahllenArray;
+      //Initialisierung des Arrays unserZahllenArray mit der Länge 10.
+      unserZahllenArray = new int[10];
+      //Das Array an der Position 0 erhällt den Wert 1
+      unserZahllenArray[0] = 1;
+      //Das Array an der Position 2 erhällt den Wert 4
+      unserZahllenArray[2] = 4;
+      //Das Array an der Position 3 erhällt den Wert 7
+      unserZahllenArray[3] = 7;
+      //Das Array an der Position 9 erhällt den Wert 56
+      unserZahllenArray[9] = 56;
+
+      
+      //INVALID!! Position 10 gibt es nicht da unser array mit 'unserZahllenArray = new int[10];' initialisiert wurde.
+      //Das heißt 0 bis 9 sind 10 Stellen
+      unserZahllenArray[10] = 56;
+      //INVALID!! Position 100000 gibt es nicht da unser array mit 'unserZahllenArray = new int[10];' initialisiert wurde.
+      //Das heißt 0 bis 9 sind 10 Stellen
+      unserZahllenArray[100000] = 56;
+      //INVALID!! Negative Arraypositionen existieren nicht!
+      unserZahllenArray[-1] = 56;
+
+      
+  }
+}
+```
+
+### Zugriff auf Bereiche eines Arrays
+Wir können die Daten die wir in ein Array geschrieben haben jederzeit wieder hervorholen in dem wir auf den entsprechenden Index des Arrays zugreifen. 
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      //Deklaration eines Arrays vom Datentyp Ganzzahl
+      int[] unserZahllenArray;
+      //Initialisierung des Arrays unserZahllenArray mit der Länge 10.
+      unserZahllenArray = new int[10];
+      //Das Array an der Position 0 erhällt den Wert 1
+      unserZahllenArray[0] = 1;
+      //Das Array an der Position 2 erhällt den Wert 4
+      unserZahllenArray[2] = 4;
+      //Das Array an der Position 3 erhällt den Wert 7
+      unserZahllenArray[3] = 7;
+      //Das Array an der Position 9 erhällt den Wert 56
+      unserZahllenArray[9] = 56;
+
+      
+      System.out.println("Array an Position 3 ist gleich: " + unserZahllenArray[3]);
+  }
+}
+```
+Ausgabe:
+```
+>Array an Position 3 ist gleich: 7
+```
+
+## Entscheidungen
+
+In unserem Program müssen wir oft Entscheidungen treffen. Dies wird oft mit dem 'if - else' Ausdruck gemacht.
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      int a = 5;
+      if(a > 5) {
+        System.out.println("Die Variable a ist größer als der Wert 5");
+      } else {
+        System.out.println("Die Variable a ist kleiner als der Wert 5");
+      }
+  }
+}
+```
+
+Es ist möglich die Ausdrücke beliebig lang zu verketten
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      int a = 5;
+      if(a > 5) {
+        System.out.println("Die Variable a ist größer als der Wert 5");
+      } else if(a == 5) {
+        System.out.println("Die Variable a ist gleich dem Wert 5");
+      }
+      else {
+        System.out.println("Die Variable a ist kleiner als der Wert 5");
+      }
+  }
+}
+```
+
+
+## Schleifen
+Schleifen benötigen wir um ein Ausdruck mehrfach zu wiederholen.
+Der Kopf einer Schleife besteht aus den bereits erlernten Elementen 'for(int i = 0; i < 10; i++)'.
+Wir schlüsseln diese auf in.
+- for: der Schleifen Typ
+- int i = 0; Deklaration der Variable i und Zuweisung des Wertes 0 zu der Variable
+- i < 10; Abfrage der Variable i. Ist diese Variable kleiner 10?
+- i++; Increment der Variable um 1.
+Das heißt es wird zuerst eine Variable mit dem Wert 0 initialisiert und danach bei jedem Durchlauf der Schleife mit dem Wert 10 verglichen.
+Wenn i kleiner als 10 ist, dann wird die Schleife ausgeführt und die Variable i wird für den nächsten Durchlauf der Schleife um 1 erhöht.
+
+Dadurch können wir auf einfach Weiße ein Array der Länge 10 mit 10 Werten initialisieren.
+```java
+//Main- Klasse
+public class Main {
+  //Main Methode
+  public static void main(String[] args) {
+      //Programmeinstieg hier
+      //Deklaration eines Arrays vom Datentyp Ganzzahl
+      int[] unserZahllenArray;
+      //Initialisierung des Arrays unserZahllenArray mit der Länge 10.
+      unserZahllenArray = new int[10];
+
+      for(int i = 0; i < 10; i++) {
+        System.out.println("Schreibe den Wert: " + i + " an die Position " + unserZahllenArray[i] + "des Arrays.");
+        unserZahllenArray[i] = i;
+      }
+      
+      for(int i = 0; i < 10; i++) {
+        System.out.println("Die Position des Arrays: " + i + " enthällt den Wert: " + unserZahllenArray[i]);
+        unserZahllenArray[i] = i;
+      }
+      
+  }
+}
+```
