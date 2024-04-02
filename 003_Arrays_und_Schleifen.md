@@ -33,6 +33,7 @@ Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 13.
 ![Bild Aufgabe 4](/images/arrays_und_schleifen/image008.png)  
 
 ## Aufgabe 5:
+Hilfestellung: Arrays: https://www.w3schools.com/java/java_arrays.asp
 Beschreibe dieses Programm. Was passiert in den Zeilen 3 bis 7.
 ![Bild Aufgabe 5](/images/arrays_und_schleifen/image009.png)  
 Ändere das Programm so das es die Zahlen des Arrays rückwärts ausgibt .
